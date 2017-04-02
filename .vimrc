@@ -16,7 +16,6 @@ map <C-t> :NERDTreeToggle<CR>
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter' " commenter: \cc \cu
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'rizzatti/dash.vim'
 Plugin 'Raimondi/delimitMate'
 Plugin 'mattn/emmet-vim'
