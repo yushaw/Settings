@@ -76,10 +76,10 @@ set gdefault
 " 行内替换
 
 set encoding=utf-8
-set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936,utf-16,big5,euc-jp,latin1
+set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,default
 " 编码设置
 
-colorscheme Tomorrow-Night-Bright
+colorscheme tomorrow-night-bright
 " 设置颜色主题
 
 "set guifont=Menlo:h16:cANSI
@@ -127,3 +127,9 @@ set laststatus=2
 set t_Co=256
 let g:Powerline_symbols= 'unicode'
 " Powerline 设置
+
+autocmd BufReadPost *
+     \ if line("'\"") > 0 && line("'\"") <= line("$") |
+     \   exe "normal! g`\"" |
+     \ endif
+" Return to last edit position when opening files (You want this!)
