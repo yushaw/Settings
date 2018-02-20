@@ -13,14 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " -----------------自定义插件start-----------------------
 Plugin 'scrooloose/nerdtree'
 map <C-t> :NERDTreeToggle<CR>
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdcommenter' " commenter: \cc \cu
-Plugin 'rizzatti/dash.vim'
-Plugin 'Raimondi/delimitMate'
-Plugin 'mattn/emmet-vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'vim-scripts/indentpython.vim'
+" Plugin 'gabrielelana/vim-markdown'
 " ------------------自定义插件end--------------------------
 
 " All of your Plugins must be added before the following line
@@ -59,9 +54,6 @@ set softtabstop=4
 set shiftwidth=4
 "  统一缩进为4
 
-set noexpandtab
-" 不要用空格代替制表符
-
 set number
 " 显示行号
 
@@ -79,7 +71,7 @@ set encoding=utf-8
 set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,default
 " 编码设置
 
-colorscheme Tomorrow-Night-Bright
+colorscheme tomorrow-night-bright
 " 设置颜色主题
 
 "set guifont=Menlo:h16:cANSI
