@@ -71,7 +71,7 @@ set encoding=utf-8
 set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,default
 " 编码设置
 
-colorscheme tomorrow-night-bright
+colorscheme Tomorrow-Night-Bright
 " 设置颜色主题
 
 "set guifont=Menlo:h16:cANSI
